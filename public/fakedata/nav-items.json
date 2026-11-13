@@ -1,0 +1,81 @@
+[
+	{
+		"id": 1,
+		"name": "How It Works",
+		"path": "#how"
+	},
+	{
+		"id": 2,
+		"name": "Services",
+		"path": "#",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Condo Management in Chicago",
+				"path": "/condo-management-chicago"
+			},
+			{
+				"id": 2,
+				"name": "Association Management in Chicago",
+				"path": "/association-management-chicago"
+			},
+			{
+				"id": 3,
+				"name": "HOA Accounting Services",
+				"path": "/services/hoa-accounting"
+			},
+			{
+				"id": 4,
+				"name": "Self-Managed HOA Support",
+				"path": "/services/self-managed-hoa-support"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Areas",
+		"path": "#",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Evanston",
+				"path": "/hoa-management-evanston"
+			},
+			{
+				"id": 2,
+				"name": "Skokie",
+				"path": "/hoa-management-skokie"
+			},
+			{
+				"id": 3,
+				"name": "Schaumburg",
+				"path": "/hoa-management-schaumburg"
+			},
+			{
+				"id": 4,
+				"name": "Arlington Heights",
+				"path": "/hoa-management-arlington-heights"
+			},
+			{
+				"id": 5,
+				"name": "Palatine",
+				"path": "/hoa-management-palatine"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Pricing",
+		"path": "#pricing"
+	},
+	{
+		"id": 5,
+		"name": "FAQ",
+		"path": "#faq"
+	},
+	{
+		"id": 6,
+		"name": "Contact",
+		"path": "/contact"
+	}
+]

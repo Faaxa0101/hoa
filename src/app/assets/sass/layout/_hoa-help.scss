@@ -1,0 +1,664 @@
+/* ==========================================================================
+   HOA.Help rebuild — small additions on top of the Bexon sections
+   ========================================================================== */
+
+// Animations disabled: .wow elements were hidden until WOW.js revealed them.
+// Show everything immediately.
+.wow {
+	visibility: visible !important;
+	animation: none !important;
+}
+
+// Headings waited for GSAP to add .start-anim; show them from the start.
+.title-anim,
+.text-anim,
+.hero-text-anim {
+	opacity: 1 !important;
+}
+
+// Hero: align the description block with the H1 (left edge), not offset right
+.tj-banner-section .banner-desc-area {
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	max-width: 560px;
+
+	.banner-desc {
+		padding-inline-start: 0;
+		max-width: 560px;
+	}
+}
+
+// FAQ: keep the image + call box column in view while the accordion scrolls
+@media (min-width: 992px) {
+	.tj-faq-section .faq-img-area {
+		position: sticky;
+		top: 110px;
+	}
+}
+
+// Content blocks on service pages (condo management, etc.)
+.condo-content-block {
+	margin-top: 34px;
+
+	h3 {
+		font-size: 22px;
+		line-height: 1.35;
+		margin-bottom: 10px;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 1.75;
+		color: var(--tj-color-text-body);
+		margin-bottom: 12px;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 6px 0 0;
+
+		li {
+			font-size: 16px;
+			line-height: 1.7;
+			color: var(--tj-color-text-body);
+			padding-inline-start: 26px;
+			position: relative;
+			margin-bottom: 8px;
+
+			&::before {
+				content: "";
+				position: absolute;
+				inset-inline-start: 4px;
+				top: 11px;
+				width: 7px;
+				height: 7px;
+				border-radius: 2px;
+				background: var(--tj-color-theme-primary);
+				opacity: 0.7;
+			}
+		}
+	}
+}
+
+// Buildings We Manage photo cards
+.building-card {
+	background: var(--tj-color-common-white);
+	border: 1px solid var(--tj-color-border-1);
+	border-radius: 14px;
+	overflow: hidden;
+	height: 100%;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+	&:hover {
+		transform: translateY(-4px);
+		box-shadow: 0 14px 34px rgba(12, 30, 33, 0.12);
+	}
+
+	.building-img {
+		aspect-ratio: 4 / 3;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			display: block;
+		}
+
+		&-placeholder {
+			background: #0c1e21;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			img {
+				width: auto;
+				height: 46px;
+				max-width: 60%;
+				object-fit: contain;
+				opacity: 0.92;
+			}
+		}
+	}
+
+	.building-body {
+		padding: 18px 22px 22px;
+
+		.title {
+			font-size: 17px;
+			line-height: 1.35;
+			margin-bottom: 6px;
+		}
+
+		.desc {
+			font-size: 14px;
+			color: var(--tj-color-text-body-3);
+			margin-bottom: 0;
+		}
+	}
+}
+
+// Property photo banner in the Where We Work section
+.where-img-wrap {
+	max-width: 540px;
+	margin: 0 auto 46px;
+	border-radius: 14px;
+	overflow: hidden;
+	box-shadow: 0 14px 40px rgba(12, 30, 33, 0.14);
+
+	img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+
+// Logo stacked above a section's sub-title chip
+.sec-heading .section-logo-mark {
+	display: block;
+	margin: 0 auto 16px;
+
+	img {
+		height: 44px;
+		width: auto;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+// HOA.Help wordmark logo: taller than Bexon's, so size by height
+.header-area {
+	.site_logo .logo {
+		max-width: none;
+
+		img {
+			height: 56px !important;
+			width: auto !important;
+			max-width: none !important;
+		}
+	}
+}
+
+.tj-footer-section {
+	.footer-logo img {
+		height: 64px !important;
+		width: auto !important;
+	}
+}
+
+.hamburger_logo .mobile_logo img {
+	height: 48px !important;
+	width: auto !important;
+}
+
+// Hero: primary + secondary CTA row
+.banner-btn-group {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-top: 36px;
+
+	.banner-secondary-link {
+		font-size: 16px;
+		font-weight: 600;
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+
+		.btn-text span {
+			color: var(--tj-color-theme-primary) !important;
+		}
+	}
+}
+
+// Hero: icon chips replacing the customer avatars
+.customers-box .customers ul li span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 89px;
+	height: 89px;
+	border-radius: 50%;
+
+	i {
+		font-size: 22px;
+		color: var(--tj-white, #fff);
+	}
+}
+
+// Footer: booking block in place of the newsletter form
+.footer-contact-buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+
+	.footer-contact-note {
+		font-size: 16px;
+		margin-bottom: 0;
+
+		a {
+			text-decoration: underline;
+		}
+	}
+}
+
+// Contact page info line under the form heading
+.contact-info-line {
+	font-size: 15px;
+	line-height: 1.7;
+	margin-bottom: 24px;
+	color: var(--tj-color-text-body);
+
+	a {
+		text-decoration: underline;
+	}
+}
+
+// Contact page: direct-contact block replacing the form
+.contact-direct {
+	.contact-intro {
+		font-size: 16px;
+		line-height: 1.7;
+		color: var(--tj-color-text-body);
+		margin-bottom: 26px;
+	}
+
+	.contact-direct-list {
+		list-style: none;
+		padding: 0;
+		margin: 0 0 28px;
+
+		li {
+			display: flex;
+			gap: 14px;
+			align-items: flex-start;
+			padding: 14px 0;
+			border-bottom: 1px solid var(--tj-color-border-1);
+
+			&:first-child { border-top: 1px solid var(--tj-color-border-1); }
+
+			.icon {
+				flex: 0 0 auto;
+				width: 42px;
+				height: 42px;
+				border-radius: 50%;
+				background: var(--tj-color-theme-bg);
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+
+				i { font-size: 18px; color: var(--tj-color-theme-primary); }
+			}
+
+			.body {
+				display: flex;
+				flex-direction: column;
+				gap: 2px;
+				font-size: 16px;
+				color: var(--tj-color-heading-primary);
+
+				.label {
+					font-size: 12px;
+					letter-spacing: 1.2px;
+					text-transform: uppercase;
+					color: var(--tj-color-theme-primary);
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}
+
+
+// Footer: grouped columns + NAP + CTA strip
+.tj-footer-section {
+	.footer-nap {
+		list-style: none;
+		padding: 0;
+		margin: 20px 0 0;
+
+		li {
+			display: flex;
+			gap: 10px;
+			align-items: flex-start;
+			margin-bottom: 10px;
+			font-size: 15px;
+			line-height: 1.5;
+
+			.icon i {
+				font-size: 15px;
+				color: var(--tj-color-theme-primary);
+			}
+
+			a:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.footer-review {
+		margin-top: 20px;
+
+		.footer-review-link {
+			display: inline-flex;
+			align-items: center;
+			gap: 10px;
+			font-size: 15px;
+			font-weight: 600;
+
+			.stars {
+				display: inline-flex;
+				gap: 2px;
+
+				i {
+					font-size: 13px;
+					color: #e8b93b;
+				}
+			}
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		.footer-portal-link {
+			display: block;
+			margin-top: 8px;
+			font-size: 15px;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.footer-group {
+		summary::-webkit-details-marker {
+			display: none;
+		}
+
+		.footer-group-title {
+			list-style: none;
+			cursor: pointer;
+			font-size: 18px;
+			font-weight: 600;
+			margin-bottom: 14px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			&::after {
+				content: "+";
+				font-size: 18px;
+				line-height: 1;
+				opacity: 0.7;
+			}
+		}
+
+		&[open] .footer-group-title::after {
+			content: "-";
+		}
+
+		@media (min-width: 992px) {
+			.footer-group-title::after {
+				display: none;
+			}
+			.footer-group-title {
+				cursor: default;
+			}
+		}
+
+		.footer-group-list {
+			list-style: none;
+			padding: 0;
+			margin: 0 0 16px;
+
+			li {
+				margin-bottom: 9px;
+
+				a {
+					font-size: 15px;
+					line-height: 1.5;
+
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+
+		@media (max-width: 991px) {
+			border-top: 1px solid rgba(255, 255, 255, 0.12);
+			padding-top: 14px;
+
+			.footer-group-title {
+				margin-bottom: 0;
+			}
+
+			&[open] .footer-group-title {
+				margin-bottom: 12px;
+			}
+		}
+	}
+
+	.footer-cta-strip {
+		margin-top: 44px;
+		padding-top: 30px;
+		border-top: 1px solid rgba(255, 255, 255, 0.12);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 24px;
+		flex-wrap: wrap;
+
+		.footer-cta-copy {
+			.title {
+				font-size: 22px;
+				margin-bottom: 4px;
+			}
+
+			p {
+				font-size: 15px;
+				margin: 0;
+			}
+		}
+
+		.footer-cta-actions {
+			display: flex;
+			align-items: center;
+			gap: 22px;
+			flex-wrap: wrap;
+		}
+
+		.footer-cta-phone {
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+			font-size: 16px;
+			font-weight: 600;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		@media (max-width: 767px) {
+			margin-top: 28px;
+			gap: 16px;
+		}
+	}
+
+	.copyright-content-area {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 16px;
+		flex-wrap: wrap;
+	}
+
+	.copyright-links {
+		font-size: 15px;
+		display: inline-flex;
+		gap: 8px;
+
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+// Service cards: no hover image pop-up
+.service-item {
+	.service-reveal-bg {
+		display: none !important;
+	}
+}
+
+// Heading hierarchy uses h3 for card titles - keep the original 24px card size
+.choose-box .choose-content h3.title,
+.process-item .process-content h3.title,
+.service-item .service-title h3.title,
+.faq-img-area .call-box h3.title,
+.pricing-box h3.package-name {
+	font-size: 24px;
+	line-height: 1.25;
+}
+
+// Contact heading uses h2 for hierarchy; keep the h3-era size
+.contact-form .title {
+	font-size: 32px;
+	line-height: 1.25;
+}
+
+// Pricing cards: wrap price caption below the amount + equal heights
+.package-price {
+	flex-wrap: wrap;
+
+	.package-period {
+		width: 100%;
+		margin-top: 8px;
+		line-height: 1.3;
+	}
+}
+
+.tj-pricing-section .row.row-gap-4 {
+	align-items: stretch;
+
+	> [class*="col-"] {
+		display: flex;
+	}
+}
+
+.tj-pricing-section .pricing-box {
+	width: 100%;
+	height: 100%;
+}
+
+@media (min-width: 768px) {
+	.tj-pricing-section .pricing-box {
+		min-height: 512px;
+	}
+}
+
+@media (max-width: 767px) {
+	.tj-pricing-section .pricing-box {
+		padding: 30px 24px 32px;
+		min-height: 515px;
+	}
+
+	.tj-pricing-section .package-price {
+		margin: 22px 0 28px;
+	}
+}
+
+// Header: Log in dropdown (Owners, Managers, Sales, Buildium)
+.login-dropdown {
+	position: relative;
+
+	.login-trigger {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		font-size: 16px;
+		font-weight: 500;
+		color: var(--tj-color-heading-primary);
+		background: transparent;
+		border: 0;
+		padding: 8px 2px;
+		cursor: pointer;
+
+		> i:first-child {
+			font-size: 15px;
+		}
+
+		.login-caret {
+			font-size: 12px;
+			transition: transform 0.25s ease;
+		}
+	}
+
+	&.open .login-trigger .login-caret,
+	&:hover .login-trigger .login-caret {
+		transform: rotate(180deg);
+	}
+
+	.login-menu {
+		position: absolute;
+		top: calc(100% + 14px);
+		inset-inline-end: 0;
+		width: 340px;
+		background: #0c1e21;
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		border-radius: 14px;
+		padding: 10px;
+		box-shadow: 0 24px 60px rgba(12, 30, 33, 0.35);
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(8px);
+		transition: 0.22s ease;
+		pointer-events: none;
+		z-index: 999;
+	}
+
+	&.open .login-menu,
+	&:hover .login-menu {
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+		pointer-events: auto;
+	}
+
+	.login-item {
+		display: flex;
+		flex-direction: column;
+		gap: 3px;
+		padding: 13px 14px;
+		border-radius: 10px;
+		transition: background 0.2s ease;
+
+		&:hover {
+			background: rgba(255, 255, 255, 0.07);
+		}
+
+		.login-item-title {
+			font-size: 16px;
+			font-weight: 600;
+			color: #f9f4e8;
+			line-height: 1.3;
+		}
+
+		.login-item-desc {
+			font-size: 13.5px;
+			line-height: 1.4;
+			color: rgba(249, 244, 232, 0.62);
+		}
+	}
+
+	@media (max-width: 1199px) {
+		.login-menu {
+			width: 300px;
+		}
+	}
+}

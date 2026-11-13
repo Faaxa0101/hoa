@@ -1,0 +1,76 @@
+import sliceText from "@/libs/sliceText";
+import Link from "next/link";
+import React from "react";
+const HeroInner = ({ title, text, breadcrums = [] }) => {
+	const breadcrumbSchema = {
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		itemListElement: [
+			{
+				"@type": "ListItem",
+				position: 1,
+				name: "Home",
+				item: "https://hoa.help/",
+			},
+			...breadcrums.map((crumb, idx) => ({
+				"@type": "ListItem",
+				position: idx + 2,
+				name: crumb.name,
+				item: `https://hoa.help${crumb.path || "/"}`,
+			})),
+		],
+	};
+
+	return (
+		<section
+			className="tj-page-header section-gap-x"
+			style={{ backgroundImage: `url('/images/bg/hoa-pheader.webp')` }}
+		>
+			<div className="container">
+				<div className="row">
+					<div className="col-lg-12">
+						<div className="tj-page-header-content text-center">
+							<h1 className={`tj-page-title`}>{title}</h1>
+							<div className="tj-page-link">
+								<span>
+									<i className="tji-home"></i>
+								</span>
+								<span>
+									<Link href="/">Home</Link>
+								</span>
+								<span>
+									<i className="tji-arrow-right"></i>
+								</span>
+								{breadcrums?.length
+									? breadcrums?.map(({ name, path }, idx) => (
+											<React.Fragment key={idx}>
+												<span>
+													<Link href={path ? path : "/"}>{name}</Link>
+												</span>
+												<span>
+													<i className="tji-arrow-right"></i>
+												</span>
+											</React.Fragment>
+									  ))
+									: ""}
+								<span>
+									<span>{sliceText(text, 28, true)}</span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div
+				className="page-header-overlay"
+				style={{ backgroundImage: `url('/images/shape/pheader-overlay.webp')` }}
+			></div>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+			/>
+		</section>
+	);
+};
+
+export default HeroInner;
