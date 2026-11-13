@@ -37,7 +37,7 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 						</div>
 						<MobileNavbar />
 						<div className="hamburger-infos">
-						<h5 className="hamburger-title">Log in</h5>
+						<p className="hamburger-title">Log in</p>
 						<div className="contact-info">
 							<div className="contact-item">
 								<Link className="contact-link" href="https://app.hoa.help/web/login?redirect=/my/hoa" target="_blank" rel="noopener noreferrer">Owners &amp; Boards</Link>
