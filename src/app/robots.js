@@ -1,5 +1,5 @@
 export default function robots() {
-	const base = "https://hoa.help";
+	const base = "https://www.hoa.help";
 	return {
 		rules: {
 			userAgent: "*",

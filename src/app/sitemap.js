@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap() {
-	const base = "https://hoa.help";
+	const base = "https://www.hoa.help";
 	return [
 		{
 			url: base,

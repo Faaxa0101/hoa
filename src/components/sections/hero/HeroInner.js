@@ -10,13 +10,13 @@ const HeroInner = ({ title, text, breadcrums = [] }) => {
 				"@type": "ListItem",
 				position: 1,
 				name: "Home",
-				item: "https://hoa.help/",
+				item: "https://www.hoa.help/",
 			},
 			...breadcrums.map((crumb, idx) => ({
 				"@type": "ListItem",
 				position: idx + 2,
 				name: crumb.name,
-				item: `https://hoa.help${crumb.path || "/"}`,
+				item: `https://www.hoa.help${crumb.path || "/"}`,
 			})),
 		],
 	};

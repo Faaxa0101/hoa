@@ -20,7 +20,7 @@ export const metadata = {
 		title: "HOA Accounting & Bookkeeping Services in Chicago | HOA.Help",
 		description:
 			"HOA accounting and bookkeeping in Chicago - assessment billing, collections, bill pay, monthly board reports and reserve tracking. Quoted after a free review.",
-		url: "https://hoa.help/services/hoa-accounting",
+		url: "https://www.hoa.help/services/hoa-accounting",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",
@@ -71,11 +71,11 @@ const hoaaccountingFaqs = [
 		serviceType: "HOA accounting and bookkeeping",
 		provider: {
 			"@type": "ProfessionalService",
-			"@id": "https://hoa.help/#organization",
+			"@id": "https://www.hoa.help/#organization",
 			name: "HOA.Help",
 		},
 		areaServed: { "@type": "State", name: "Illinois" },
-		url: "https://hoa.help/services/hoa-accounting",
+		url: "https://www.hoa.help/services/hoa-accounting",
 	};
 
 export default function HoaAccountingServices() {

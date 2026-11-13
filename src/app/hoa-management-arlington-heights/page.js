@@ -21,7 +21,7 @@ export const metadata = {
 		title: "HOA & Condo Management in Arlington Heights | HOA.Help",
 		description:
 			"HOA and condo association management in Arlington Heights, IL - collections, financials, reserve planning and 24/7 live support. Free 30-min call.",
-		url: "https://hoa.help/hoa-management-arlington-heights",
+		url: "https://www.hoa.help/hoa-management-arlington-heights",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",

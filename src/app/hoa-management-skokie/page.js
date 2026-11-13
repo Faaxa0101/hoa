@@ -21,7 +21,7 @@ export const metadata = {
 		title: "HOA & Condo Management in Skokie | HOA.Help",
 		description:
 			"HOA and condo association management in Skokie, IL - collections, financials, owner portal, reserve-first budgets and 24/7 live support. Free 30-min call.",
-		url: "https://hoa.help/hoa-management-skokie",
+		url: "https://www.hoa.help/hoa-management-skokie",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",

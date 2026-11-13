@@ -21,7 +21,7 @@ export const metadata = {
 		title: "Association Management in Chicago | HOA.Help",
 		description:
 			"Association management for self-managed HOAs and condo associations in Chicago - governance support, reserve-first budgets, collections and 24/7 live support.",
-		url: "https://hoa.help/association-management-chicago",
+		url: "https://www.hoa.help/association-management-chicago",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",
@@ -78,11 +78,11 @@ const associationFaqs = [
 		serviceType: "HOA and association management",
 		provider: {
 			"@type": "ProfessionalService",
-			"@id": "https://hoa.help/#organization",
+			"@id": "https://www.hoa.help/#organization",
 			name: "HOA.Help",
 		},
 		areaServed: { "@type": "State", name: "Illinois" },
-		url: "https://hoa.help/association-management-chicago",
+		url: "https://www.hoa.help/association-management-chicago",
 	};
 
 export default function AssociationManagementChicago() {

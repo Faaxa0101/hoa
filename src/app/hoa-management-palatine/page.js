@@ -21,7 +21,7 @@ export const metadata = {
 		title: "HOA Management in Palatine | HOA.Help",
 		description:
 			"HOA and condo association management in Palatine, IL - collections, reserve-first budgets, water and winter planning, 24/7 live support. Free 30-min call.",
-		url: "https://hoa.help/hoa-management-palatine",
+		url: "https://www.hoa.help/hoa-management-palatine",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",

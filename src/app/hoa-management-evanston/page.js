@@ -21,7 +21,7 @@ export const metadata = {
 		title: "HOA & Condo Management in Evanston | HOA.Help",
 		description:
 			"HOA and condo association management in Evanston, IL - collections, financials, owner portal and reserve-first budgets from a local Rosemont team.",
-		url: "https://hoa.help/hoa-management-evanston",
+		url: "https://www.hoa.help/hoa-management-evanston",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",

@@ -20,7 +20,7 @@ export const metadata = {
 		title: "How Much Does HOA Management Cost in Chicago? (2026) | HOA.Help",
 		description:
 			"What HOA and condo management costs in Chicago in 2026 - real market ranges, what changes the quote and contract red flags to watch for.",
-		url: "https://hoa.help/hoa-management-cost-chicago",
+		url: "https://www.hoa.help/hoa-management-cost-chicago",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",

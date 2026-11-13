@@ -21,7 +21,7 @@ export const metadata = {
 		title: "HOA Management in Schaumburg | HOA.Help",
 		description:
 			"HOA and townhome association management in Schaumburg, IL - collections, reserve-first budgets, rules enforcement, landscaping and snow. Free call.",
-		url: "https://hoa.help/hoa-management-schaumburg",
+		url: "https://www.hoa.help/hoa-management-schaumburg",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",

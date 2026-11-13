@@ -21,7 +21,7 @@ export const metadata = {
 		title: "Condo Management Companies in Chicago | HOA.Help",
 		description:
 			"Full-service condo association management in Chicago - collections, financials, owner portal, 24/7 live support and reserve-first budgeting.",
-		url: "https://hoa.help/condo-management-chicago",
+		url: "https://www.hoa.help/condo-management-chicago",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",
@@ -78,11 +78,11 @@ const condoFaqs = [
 		serviceType: "Condo and condominium association management",
 		provider: {
 			"@type": "ProfessionalService",
-			"@id": "https://hoa.help/#organization",
+			"@id": "https://www.hoa.help/#organization",
 			name: "HOA.Help",
 		},
 		areaServed: { "@type": "State", name: "Illinois" },
-		url: "https://hoa.help/condo-management-chicago",
+		url: "https://www.hoa.help/condo-management-chicago",
 	};
 
 export default function CondoManagementChicago() {

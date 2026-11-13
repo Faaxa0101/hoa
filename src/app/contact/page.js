@@ -17,7 +17,7 @@ export const metadata = {
 		title: "Contact HOA.Help | HOA.Help",
 		description:
 			"Contact HOA.Help - call or text (847) 773-0026, email hello@hoa.help, or visit our Rosemont office at 10700 W Higgins Rd, Suite 270. Free 30-min call.",
-		url: "https://hoa.help/contact",
+		url: "https://www.hoa.help/contact",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",

@@ -17,7 +17,7 @@ export const metadata = {
 		title: "Do Not Sell or Share My Personal Information | HOA.Help",
 		description:
 			"HOA.Help does not sell personal information and does not share it for cross-context behavioral advertising - CCPA/CPRA statement and how to exercise your rights.",
-		url: "https://hoa.help/do-not-sell",
+		url: "https://www.hoa.help/do-not-sell",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",

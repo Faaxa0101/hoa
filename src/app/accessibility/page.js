@@ -17,7 +17,7 @@ export const metadata = {
 		title: "Accessibility Statement | HOA.Help",
 		description:
 			"HOA.Help accessibility statement - WCAG 2.1 AA target, keyboard navigation, alt text, known limitations and how to report a barrier.",
-		url: "https://hoa.help/accessibility",
+		url: "https://www.hoa.help/accessibility",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",

@@ -19,7 +19,7 @@ export const metadata = {
 		title: "About HOA.Help | HOA.Help",
 		description:
 			"Condo and HOA management for Illinois boards - reserve-first budgets, published pricing and 24/7 live support from Rosemont, IL.",
-		url: "https://hoa.help/about",
+		url: "https://www.hoa.help/about",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",

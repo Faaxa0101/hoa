@@ -20,7 +20,7 @@ export const metadata = {
 		title: "Self-Managed HOA Support in Chicago | HOA.Help",
 		description:
 			"Support for self-managed HOAs and condos in Chicago - collections, financials, documents, owner requests and vendors. Your board keeps every decision.",
-		url: "https://hoa.help/services/self-managed-hoa-support",
+		url: "https://www.hoa.help/services/self-managed-hoa-support",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",
@@ -71,11 +71,11 @@ const selfmanagedhoasupportFaqs = [
 		serviceType: "Self-managed HOA administrative support",
 		provider: {
 			"@type": "ProfessionalService",
-			"@id": "https://hoa.help/#organization",
+			"@id": "https://www.hoa.help/#organization",
 			name: "HOA.Help",
 		},
 		areaServed: { "@type": "State", name: "Illinois" },
-		url: "https://hoa.help/services/self-managed-hoa-support",
+		url: "https://www.hoa.help/services/self-managed-hoa-support",
 	};
 
 export default function SelfManagedHoaSupport() {

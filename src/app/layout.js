@@ -47,7 +47,7 @@ export const metadata = {
 		"HOA accounting",
 		"reserve-first budgeting",
 	],
-	metadataBase: new URL("https://hoa.help"),
+	metadataBase: new URL("https://www.hoa.help"),
 	alternates: {
 		canonical: "/",
 	},
@@ -55,7 +55,7 @@ export const metadata = {
 		title: "HOA & Condo Association Management in Illinois | HOA.Help",
 		description:
 			"HOA & condo management for self-managed associations. On-site across Chicago, Rosemont, Schiller Park, the suburbs and more of Illinois. Free 30-min call.",
-		url: "https://hoa.help",
+		url: "https://www.hoa.help",
 		siteName: "HOA.Help",
 		images: [
 			{
@@ -83,12 +83,12 @@ export const metadata = {
 const organizationSchema = {
 	"@context": "https://schema.org",
 	"@type": "ProfessionalService",
-	"@id": "https://hoa.help/#organization",
+	"@id": "https://www.hoa.help/#organization",
 	name: "HOA.Help",
 	legalName: "MKZ Management LLC",
-	url: "https://hoa.help",
-	logo: "https://hoa.help/images/logos/hoa-help-logo.png",
-	image: "https://hoa.help/images/hero/hoa-hero-il-expert.webp",
+	url: "https://www.hoa.help",
+	logo: "https://www.hoa.help/images/logos/hoa-help-logo.png",
+	image: "https://www.hoa.help/images/hero/hoa-hero-il-expert.webp",
 	telephone: "+1-847-773-0026",
 	email: "hello@hoa.help",
 	priceRange: "Custom quote after free review",

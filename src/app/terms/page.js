@@ -17,7 +17,7 @@ export const metadata = {
 		title: "Terms and Conditions | HOA.Help",
 		description:
 			"Terms and Conditions for HOA.Help Account and Building Texts - message program, opt-in, frequency, opt-out and privacy.",
-		url: "https://hoa.help/terms",
+		url: "https://www.hoa.help/terms",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",

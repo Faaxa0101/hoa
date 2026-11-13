@@ -17,7 +17,7 @@ export const metadata = {
 		title: "Cookie Policy | HOA.Help",
 		description:
 			"How hoa.help uses cookies and local storage - functional storage, the Google Maps embed, third-party linking sites, and how to control cookies.",
-		url: "https://hoa.help/cookies",
+		url: "https://www.hoa.help/cookies",
 		images: [
 			{
 				url: "/images/og/hoa-help-og.png",
