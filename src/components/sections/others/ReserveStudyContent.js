@@ -180,7 +180,7 @@ const ReserveStudyContent = () => {
 							</p>
 							<figure className="guide-figure">
 								<img
-									src="/images/guides/reserve-funding-chart.png"
+									src="/images/guides/hoa-reserve-funding-chart.png"
 									width="880"
 									height="440"
 									alt="Line chart comparing two reserve funding paths over 20 years against a roof replacement in year 12: funding at 5 to 8 percent never covers more than about a third of the roof cost and drops near zero after replacement, while funding at 15 to 20 percent reaches the full roof cost by year 12."

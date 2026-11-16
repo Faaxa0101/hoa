@@ -89,7 +89,7 @@ const SwitchingContent = () => {
 							</p>
 							<figure className="guide-figure">
 								<img
-									src="/images/guides/switching-hoa-management-chicago-entrance.webp"
+									src="/images/guides/switch-hoa-management-company-chicago.webp"
 									width="1200"
 									height="800"
 									alt="Morning light on the limestone entrance and mailboxes of a vintage Chicago courtyard condominium."

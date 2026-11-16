@@ -75,7 +75,7 @@ const SpecialAssessmentContent = () => {
 							</p>
 							<figure className="guide-figure">
 								<img
-									src="/images/guides/hoa-special-assessment-brick-water-damage.webp"
+									src="/images/guides/hoa-special-assessment-chicago-brick-damage.webp"
 									width="1200"
 									height="800"
 									alt="Cracked, water-stained brick masonry and a patched flat roof edge on an older Chicago condo building."
