@@ -163,6 +163,23 @@ const ReserveStudyContent = () => {
 								prioritizes the nearest failing components is better than a
 								dramatic increase that owners reject.
 							</p>
+							<figure className="guide-figure">
+								<img
+									src="/images/guides/reserve-funding-chart.png"
+									width="880"
+									height="440"
+									alt="Line chart comparing two reserve funding paths over 20 years against a roof replacement in year 12: funding at 5 to 8 percent never covers more than about a third of the roof cost and drops near zero after replacement, while funding at 15 to 20 percent reaches the full roof cost by year 12."
+									loading="lazy"
+									decoding="async"
+								/>
+								<figcaption>
+									Illustrative model: two funding paths against the same roof
+									replacement in year 12. The underfunded path (5-8% of the
+									operating budget) never reaches the project cost, so the gap
+									becomes a special assessment. The reserve-first path (15-20%)
+									has the full amount on hand before the roof fails.
+								</figcaption>
+							</figure>
 						</div>
 
 						<div className="condo-content-block">

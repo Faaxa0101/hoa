@@ -71,7 +71,7 @@ const articleSchema = {
 	headline: "HOA Reserve Studies in Illinois: A Board Guide",
 	description:
 		"What an HOA reserve study contains, how Illinois boards use it, how often to update it, funding targets and the signs your study is out of date.",
-	image: "https://www.hoa.help/images/og/hoa-help-og.png",
+	image: "https://www.hoa.help/images/guides/reserve-funding-chart.png",
 	author: {
 		"@type": "Organization",
 		name: "HOA.Help",
