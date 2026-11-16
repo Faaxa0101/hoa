@@ -103,7 +103,9 @@ const CostArticleContent = () => {
 								<Link href="/services/self-managed-hoa-support"> self-managed HOA support </Link>
 								and
 								<Link href="/services/hoa-accounting"> HOA accounting services </Link>
-								are built for exactly that middle.
+								are built for exactly that middle. For the wider picture -
+								scope, vetting questions, transition and reserves - read the
+								<Link href="/hoa-management-guide-chicago"> HOA management guide for Chicago boards </Link>.
 							</p>
 						</div>
 					</div>

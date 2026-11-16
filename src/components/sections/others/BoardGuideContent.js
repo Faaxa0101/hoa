@@ -307,8 +307,10 @@ const BoardGuideContent = () => {
 								Read the termination clause before signing with anyone: notice
 								period, record transfer, and who controls the portal and the
 								bank accounts. A management agreement the board cannot exit
-								cleanly is a red flag by itself. Questions about a specific
-								transition: <Link href="/contact">talk to us</Link> - the call
+								cleanly is a red flag by itself. The full sequence is in our
+								guide to
+								<Link href="/how-to-switch-hoa-management-chicago"> switching HOA management companies in Chicago </Link>.
+								Questions about a specific transition: <Link href="/contact">talk to us</Link> - the call
 								is free.
 							</p>
 						</div>

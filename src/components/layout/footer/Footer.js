@@ -16,6 +16,10 @@ const groups = [
 				label: "Self-Managed HOA Support",
 				href: "/services/self-managed-hoa-support",
 			},
+			{
+				label: "How to Switch Managers",
+				href: "/how-to-switch-hoa-management-chicago",
+			},
 		],
 	},
 	{

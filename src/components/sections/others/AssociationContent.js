@@ -83,7 +83,10 @@ const AssociationContent = () => {
 								welcome packets go out. At 30 days the board gets a first
 								check-in on collections and open items, and from there the
 								rhythm is quarterly reporting, annual budget season and
-								reserve review - with a real person on call in between.
+								reserve review - with a real person on call in between. For
+								what management should include, what it costs and how to vet a
+								company, see our
+								<Link href="/hoa-management-guide-chicago"> complete HOA management guide </Link>.
 							</p>
 						</div>
 					</div>

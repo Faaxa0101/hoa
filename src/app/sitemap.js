@@ -76,6 +76,12 @@ export default function sitemap() {
 			priority: 0.8,
 		},
 		{
+			url: `${base}/how-to-switch-hoa-management-chicago`,
+			lastModified: new Date(),
+			changeFrequency: "monthly",
+			priority: 0.8,
+		},
+		{
 			url: `${base}/contact`,
 			lastModified: new Date(),
 			changeFrequency: "monthly",

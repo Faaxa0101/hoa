@@ -98,7 +98,10 @@ const CondoContent = () => {
 								is verified and the portal opens. At 30 days the board gets a
 								first check-in on collections and open items; from there the
 								cadence is quarterly board reporting, annual budget season and
-								reserve review - with the manager on call in between.
+								reserve review - with the manager on call in between. For the
+								full picture of what management covers and how boards choose,
+								read our
+								<Link href="/hoa-management-guide-chicago"> HOA management guide for Chicago board members </Link>.
 							</p>
 						</div>
 					</div>
