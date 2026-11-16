@@ -145,7 +145,10 @@ const PrivacyPrimary = () => {
 									required to keep. It is seen only by HOA.Help staff and,
 									where it concerns the association, its board. We keep records
 									for as long as the association&apos;s governing documents and
-									the law require.
+									the law require. Website usage data is processed for us by
+									Google Analytics 4 (measurement ID G-C6WKSXZYHN) under Google's
+									terms and is not linked to your association account; opt out via
+									the Google Analytics opt-out add-on or your browser settings.
 								</p>
 							</div>
 

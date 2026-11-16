@@ -1,3 +1,4 @@
+import Script from "next/script";
 import { Mona_Sans } from "next/font/google";
 import "react-range-slider-input/dist/style.css";
 import "./assets/css/animate.min.css";
@@ -151,6 +152,16 @@ export default function RootLayout({ children }) {
 						__html: JSON.stringify(organizationSchema),
 					}}
 				/>
+				<Script
+					src="https://www.googletagmanager.com/gtag/js?id=G-C6WKSXZYHN"
+					strategy="afterInteractive"
+				/>
+				<Script id="ga4-init" strategy="afterInteractive">
+					{`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C6WKSXZYHN');`}
+				</Script>
 			</body>
 		</html>
 	);

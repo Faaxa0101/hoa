@@ -47,16 +47,35 @@ const CookiesPrimary = () => {
 							</div>
 
 							<div>
-								<h3>2. What we do not use</h3>
+								<h3>2. Analytics</h3>
 								<p>
-									We do not use advertising cookies, cross-site tracking
-									pixels, or third-party analytics cookies on hoa.help. We do
-									not sell cookie data.
+									We use Google Analytics 4 (measurement ID G-C6WKSXZYHN) to
+									understand how the site is used - pages visited, approximate
+									location by region, device and browser, and referral source.
+									Google Analytics sets first-party cookies (named _ga and
+									_ga_*) that typically expire after up to two years. Reports
+									are aggregated; we do not use this data to identify
+									individual visitors or to serve advertising.
+								</p>
+								<p>
+									To opt out, use the Google Analytics opt-out browser add-on
+									(https://tools.google.com/dlpage/gaoptout) or block cookies
+									in your browser settings. Google processes this data as our
+									service provider; see Google's privacy policy for details.
 								</p>
 							</div>
 
 							<div>
-								<h3>3. Controlling cookies</h3>
+								<h3>3. What we do not use</h3>
+								<p>
+									We do not use advertising cookies, cross-site tracking
+									pixels or retargeting on hoa.help. We do not sell cookie
+									data.
+								</p>
+							</div>
+
+							<div>
+								<h3>4. Controlling cookies</h3>
 								<p>
 									You can block or delete cookies and local storage in your
 									browser settings at any time. Blocking the Google Map embed
@@ -68,7 +87,7 @@ const CookiesPrimary = () => {
 							</div>
 
 							<div>
-								<h3>4. More information</h3>
+								<h3>5. More information</h3>
 								<p>
 									How we handle personal information is described in our{" "}
 									<Link href="/privacy">Privacy Policy</Link>. Questions:{" "}
