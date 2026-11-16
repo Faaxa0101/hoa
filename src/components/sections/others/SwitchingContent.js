@@ -87,6 +87,20 @@ const SwitchingContent = () => {
 								morning. Two managers operating at once is how double payments
 								and confused vendors happen.
 							</p>
+							<figure className="guide-figure">
+								<img
+									src="/images/guides/switching-hoa-management-chicago-entrance.webp"
+									width="1200"
+									height="800"
+									alt="Morning light on the limestone entrance and mailboxes of a vintage Chicago courtyard condominium."
+									loading="lazy"
+									decoding="async"
+								/>
+								<figcaption>
+									A clean handover starts at the front door: records, keys and
+									vendor contracts move once, on one agreed date.
+								</figcaption>
+							</figure>
 						</div>
 
 						<div className="condo-content-block">

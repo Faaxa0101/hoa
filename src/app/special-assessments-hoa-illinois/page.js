@@ -71,7 +71,7 @@ const articleSchema = {
 	headline: "Special Assessments in Illinois HOAs and Condos",
 	description:
 		"What a special assessment is, why Illinois HOAs and condos impose one, how the board approves it, how it is split and how owners and boards can prepare.",
-	image: "https://www.hoa.help/images/og/hoa-help-og.png",
+	image: "https://www.hoa.help/images/guides/hoa-special-assessment-brick-water-damage.webp",
 	author: {
 		"@type": "Organization",
 		name: "HOA.Help",

@@ -64,6 +64,22 @@ const BoardGuideContent = () => {
 							</p>
 						</div>
 
+						<figure className="guide-figure">
+							<img
+								src="/images/guides/hoa-management-chicago-buildings-dusk.webp"
+								width="1200"
+								height="800"
+								alt="Brick Chicago courtyard condo building at dusk with a high-rise behind it - the range of buildings HOA.Help manages."
+								loading="lazy"
+								decoding="async"
+							/>
+							<figcaption>
+								Chicago board service spans every building type - from vintage
+								courtyard walk-ups to lakefront high-rises - and each one
+								carries a different management load.
+							</figcaption>
+						</figure>
+
 						<div className="condo-content-block" id="hoa-vs-condo">
 							<h3>1. HOA vs condo association in Illinois</h3>
 							<p>

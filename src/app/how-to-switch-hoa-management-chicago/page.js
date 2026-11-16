@@ -76,7 +76,7 @@ const articleSchema = {
 	headline: "How to Switch HOA Management Companies in Chicago",
 	description:
 		"How Chicago boards switch HOA management companies without chaos: notice, records, bank accounts, owners and the first 30 days - step by step.",
-	image: "https://www.hoa.help/images/og/hoa-help-og.png",
+	image: "https://www.hoa.help/images/guides/switching-hoa-management-chicago-entrance.webp",
 	author: {
 		"@type": "Organization",
 		name: "HOA.Help",

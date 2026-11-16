@@ -73,6 +73,21 @@ const ReserveStudyContent = () => {
 								rate, interest earned, contingency - so the board can see
 								where the numbers came from.
 							</p>
+							<figure className="guide-figure">
+								<img
+									src="/images/guides/hoa-reserve-study-rooftop-hvac-chicago.webp"
+									width="1200"
+									height="800"
+									alt="Aging rooftop HVAC units and a low parapet on a Chicago brick condominium, with the downtown skyline behind."
+									loading="lazy"
+									decoding="async"
+								/>
+								<figcaption>
+									The components a reserve study counts: aging rooftop HVAC,
+									membrane patches, parapet and masonry, all on a Chicago
+									brick building.
+								</figcaption>
+							</figure>
 						</div>
 
 						<div className="condo-content-block">

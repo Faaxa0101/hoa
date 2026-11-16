@@ -81,7 +81,7 @@ const articleSchema = {
 	headline: "HOA & Condo Management in Chicago: A Board Member's Guide",
 	description:
 		"The complete guide to HOA and condo management in Chicago - what management covers, what it costs, how boards choose a company and how to switch without chaos.",
-	image: "https://www.hoa.help/images/og/hoa-help-og.png",
+	image: "https://www.hoa.help/images/guides/hoa-management-chicago-buildings-dusk.webp",
 	author: {
 		"@type": "Organization",
 		name: "HOA.Help",

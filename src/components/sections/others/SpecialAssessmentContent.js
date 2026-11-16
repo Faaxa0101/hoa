@@ -73,6 +73,20 @@ const SpecialAssessmentContent = () => {
 								special-assesses every few years is underfunded by design, and
 								the board should say so plainly.
 							</p>
+							<figure className="guide-figure">
+								<img
+									src="/images/guides/hoa-special-assessment-brick-water-damage.webp"
+									width="1200"
+									height="800"
+									alt="Cracked, water-stained brick masonry and a patched flat roof edge on an older Chicago condo building."
+									loading="lazy"
+									decoding="async"
+								/>
+								<figcaption>
+									The quiet version of a special assessment: masonry staining
+									and a patched roof edge that was never funded as a project.
+								</figcaption>
+							</figure>
 						</div>
 
 						<div className="condo-content-block">
