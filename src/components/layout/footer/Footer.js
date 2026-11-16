@@ -39,6 +39,7 @@ const groups = [
 			{ label: "How it works", href: "/#how" },
 			{ label: "Pricing", href: "/#pricing" },
 			{ label: "HOA Management Cost in Chicago", href: "/hoa-management-cost-chicago" },
+			{ label: "HOA Management Guide", href: "/hoa-management-guide-chicago" },
 			{ label: "Contact", href: "/contact" },
 			{ label: "FAQ", href: "/#faq" },
 			{ label: "Privacy Policy", href: "/privacy" },
