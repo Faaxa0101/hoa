@@ -49,6 +49,11 @@ export const metadata = {
 		"reserve-first budgeting",
 	],
 	metadataBase: new URL("https://www.hoa.help"),
+	verification: {
+		other: {
+			"msvalidate.01": "F3AB7EDAD0611DD3BF2279B4770E5F2D",
+		},
+	},
 	alternates: {
 		canonical: "/",
 	},
