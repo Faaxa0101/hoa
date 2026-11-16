@@ -52,6 +52,7 @@ const BuildingCard = ({ building, idx }) => {
 						alt={`${building.title} - ${building.desc}`}
 						width={640}
 						height={480}
+						sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 33vw"
 					/>
 				</div>
 			) : (

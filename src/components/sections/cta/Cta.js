@@ -24,6 +24,8 @@ const Cta = () => {
 								<img
 									src="/images/cta/hoa-chicago.webp"
 									alt="Chicago skyline - HOA.Help home base in Illinois"
+									width={1314}
+									height={676}
 								/>
 							</div>
 						</div>

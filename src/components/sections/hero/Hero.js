@@ -38,7 +38,7 @@ const Hero = () => {
 						</div>
 					</div>
 					<div className="banner-shape">
-						<img src="/images/shape/pattern-bg.webp" alt="" />
+						<img src="/images/shape/pattern-bg.webp" alt="" width={560} height={560} aria-hidden="true" />
 					</div>
 				</div>
 				<div className="banner-right-box">
@@ -50,6 +50,7 @@ const Hero = () => {
 							width={945}
 							height={793}
 							priority
+							sizes="(max-width: 991px) 100vw, 46vw"
 						/>
 					</div>
 					<div className="box-area">

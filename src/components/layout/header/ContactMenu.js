@@ -26,6 +26,8 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 									<img
 										src="/images/logos/hoa-help-logo-light.webp"
 										alt="HOA.Help"
+										width={1559}
+										height={915}
 									/>
 								</Link>
 							</div>

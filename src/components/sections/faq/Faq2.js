@@ -91,6 +91,7 @@ const Faq2 = ({ type = 1, items: customItems }) => {
 										alt="Questions HOA and condo boards ask before working with HOA.Help"
 										width={585}
 										height={629}
+										sizes="(max-width: 991px) 100vw, 46vw"
 									/>
 									<h2 className={`title ${type === 4 ? "title-anim" : ""}`}>
 										Answers to common questions.

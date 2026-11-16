@@ -12,6 +12,7 @@ const Logo = ({ headerType, isStickyHeader }) => {
 					width={1530}
 					height={871}
 					style={{ height: "auto" }}
+					sizes="136px"
 					priority
 				/>
 			</Link>
