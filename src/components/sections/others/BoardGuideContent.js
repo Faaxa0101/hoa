@@ -241,9 +241,9 @@ const BoardGuideContent = () => {
 								Two budget habits matter more than the management fee itself:
 								reserve contributions targeting 15-20% of the operating budget,
 								and strict expense control so special assessments stay rare. A
-								management fee that saves $100 a month while ignoring a failing
-								roof is not saving anything - it is borrowing from owners at the
-								worst possible interest rate.
+								management fee that looks cheap while a failing roof goes
+								unfunded is not saving anything - it is borrowing from owners
+								at the worst possible interest rate.
 							</p>
 							<p>
 								Our
@@ -260,7 +260,7 @@ const BoardGuideContent = () => {
 								answers, not the sales pitch:
 							</p>
 							<ol className="guide-numbered">
-								<li>Who selects vendors, and what is the minimum number of bids above $5,000?</li>
+								<li>Who selects vendors, and what is the minimum number of bids above a defined threshold?</li>
 								<li>How are related-party relationships and vendor referrals disclosed?</li>
 								<li>What reserve funding target does the proposed budget apply, and how is it calculated?</li>
 								<li>Can reserve funds move without a board vote, and who signs?</li>
@@ -365,15 +365,15 @@ const BoardGuideContent = () => {
 							</p>
 							<p>
 								When reserves are underfunded, the gap becomes a special
-								assessment: a one-time charge to owners, often $5,000-$10,000
-								per unit for a major project, due in a lump sum or short
-								payment plan. The board did not create the failing roof - but
-								the funding gap is why a building event becomes a personal
-								financial event for every owner. More on how these numbers work
-								in our
-								<Link href="/hoa-management-cost-chicago"> cost guide </Link>
-								and on the
-								<Link href="/about"> About page </Link>.
+								assessment: a one-time charge to owners, due in a lump sum or
+								short payment plan. The board did not create the failing roof -
+								but the funding gap is why a building event becomes a personal
+								financial event for every owner. We explain both in detail:
+								<Link href="/special-assessments-hoa-illinois"> how special assessments work in Illinois </Link>
+								and
+								<Link href="/hoa-reserve-study-illinois"> what a reserve study contains and how boards use it </Link>.
+								For how these numbers fit the budget, read our
+								<Link href="/hoa-management-cost-chicago"> cost guide </Link>.
 							</p>
 						</div>
 					</div>

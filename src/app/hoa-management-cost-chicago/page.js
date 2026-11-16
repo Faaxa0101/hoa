@@ -35,7 +35,7 @@ export const metadata = {
 const hoamanagementcostchicagoFaqs = [
 	{
 		title: "How much does HOA management cost in Chicago?",
-		desc: "Small associations typically pay $250-$600/month flat, larger buildings commonly $15-$35 per unit per month depending on services. HOA.Help publishes $250/month for basic financials, $500/month for 24/7 availability, and from $25/unit for dedicated management.",
+		desc: "Fees depend on unit count, service level, building age and the condition of the records. Smaller associations usually pay a flat monthly fee, larger buildings a per-unit fee. Every board starts with a free financial and issues review, then receives a written quote - no add-on fees.",
 		initActive: true,
 	},
 
@@ -59,7 +59,7 @@ const hoamanagementcostchicagoFaqs = [
 
 	{
 		title: "How do we compare quotes?",
-		desc: "Normalize them: same service scope, same units, same term. A $200/month quote with add-on fees usually costs more than a transparent $250 tier.",
+		desc: "Normalize them: same service scope, same units, same term. A low headline quote with add-on fees usually costs more than a transparent, itemized quote.",
 		initActive: false,
 	},
 ];

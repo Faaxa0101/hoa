@@ -15,8 +15,8 @@ const CostArticleContent = () => {
 								<span>in Chicago?</span>
 							</h2>
 							<p className="desc wow fadeInUp" data-wow-delay=".4s">
-								Published prices, real ranges, and the questions to ask
-								before signing anything.
+								The pricing models, what drives a quote, and the questions to
+								ask before signing anything.
 							</p>
 						</div>
 
@@ -24,14 +24,13 @@ const CostArticleContent = () => {
 							<h3>The short answer</h3>
 							<p>
 								HOA and condo management in Chicago typically runs on one of
-								two models: a flat monthly fee for small associations (often
-								$250-$600/month depending on services), or a per-unit fee for
-								larger buildings (commonly $15-$35/unit/month, scaled by
-								service level). On top of either model, expect add-ons for
-								emergency coverage, capital project management and
-								collections beyond routine notices. Anyone who quotes you a
-								single number without asking about units, building age and
-								services is guessing.
+								two models: a flat monthly fee for small associations, or a
+								per-unit fee for larger buildings, scaled by service level.
+								On top of either model, expect add-ons for emergency
+								coverage, capital project management and collections beyond
+								routine notices. Anyone who quotes you a single number
+								without asking about units, building age and services is
+								guessing.
 							</p>
 						</div>
 
