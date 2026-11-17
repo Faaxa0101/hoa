@@ -50,8 +50,9 @@ const PricingPlanItems = ({ isYearlyPlan }) => {
 							<p>Essential day-to-day management</p>
 						</div>
 						<div className="package-price">
-							<span className="price-number">Custom</span>
-							<span className="package-period">quote</span>
+							<span className="price-start">Starting from</span>
+							<span className="price-number">$250</span>
+							<span className="package-period">/ month</span>
 						</div>
 						<div className="pricing-btn">
 							<ButtonPrimary
@@ -84,8 +85,9 @@ const PricingPlanItems = ({ isYearlyPlan }) => {
 							<p>Most Popular - always available</p>
 						</div>
 						<div className="package-price">
-							<span className="price-number">Custom</span>
-							<span className="package-period">quote</span>
+							<span className="price-start">Starting from</span>
+							<span className="price-number">$500</span>
+							<span className="package-period">/ month</span>
 						</div>
 						<div className="pricing-btn">
 							<ButtonPrimary
@@ -118,8 +120,9 @@ const PricingPlanItems = ({ isYearlyPlan }) => {
 							<p>Your own HOA manager</p>
 						</div>
 						<div className="package-price">
-							<span className="price-number">Custom</span>
-							<span className="package-period">quote</span>
+							<span className="price-start">Starting from</span>
+							<span className="price-number">$25</span>
+							<span className="package-period">/ unit / month</span>
 						</div>
 						<div className="pricing-btn">
 							<ButtonPrimary
@@ -152,8 +155,8 @@ const PricingPlanItems = ({ isYearlyPlan }) => {
 							<p>Add-on reserve protection</p>
 						</div>
 						<div className="package-price">
-							<span className="price-number">Ask</span>
-							<span className="package-period">about our offer</span>
+							<span className="price-number">10% Off</span>
+							<span className="package-period">your current rate</span>
 						</div>
 						<div className="pricing-btn">
 							<ButtonPrimary

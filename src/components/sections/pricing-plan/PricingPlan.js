@@ -33,7 +33,8 @@ const PricingPlan = ({ type = 1 }) => {
 								data-wow-delay=".4s"
 								style={{ marginTop: 10 }}
 							>
-								Simple tiers that scale with your needs.
+								Simple tiers that scale with your needs. Starting prices - your
+								final quote follows the free review.
 							</p>
 						</div>
 					</div>

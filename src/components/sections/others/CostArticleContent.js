@@ -26,7 +26,11 @@ const CostArticleContent = () => {
 								HOA and condo management in Chicago typically runs on one of
 								two models: a flat monthly fee for small associations, or a
 								per-unit fee for larger buildings, scaled by service level.
-								On top of either model, expect add-ons for emergency
+								Our published starting points are $250/month for basic
+								financials, $500/month for 24/7 availability, and from $25 per
+								unit per month for dedicated management; the final quote
+								depends on units, services and the building's condition. On
+								top of the management fee, expect add-ons for emergency
 								coverage, capital project management and collections beyond
 								routine notices. Anyone who quotes you a single number
 								without asking about units, building age and services is

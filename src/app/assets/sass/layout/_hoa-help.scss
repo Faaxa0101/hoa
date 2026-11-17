@@ -652,11 +652,27 @@
 .package-price {
 	flex-wrap: wrap;
 
+	.price-start {
+		width: 100%;
+		font-size: 13px;
+		line-height: 1.2;
+		font-weight: 500;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--tj-color-text-body);
+		margin-bottom: 6px;
+	}
+
 	.package-period {
 		width: 100%;
 		margin-top: 8px;
 		line-height: 1.3;
 	}
+}
+
+// "Starting from" label on the highlighted (teal) card
+.pricing-box.active .package-price .price-start {
+	color: rgba(255, 255, 255, 0.82);
 }
 
 .tj-pricing-section .row.row-gap-4 {

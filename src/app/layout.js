@@ -97,7 +97,7 @@ const organizationSchema = {
 	image: "https://www.hoa.help/images/hero/hoa-hero-il-expert.webp",
 	telephone: "+1-847-773-0026",
 	email: "hello@hoa.help",
-	priceRange: "Custom quote after free review",
+	priceRange: "Starting from $250 per month",
 	address: {
 		"@type": "PostalAddress",
 		streetAddress: "10700 W Higgins Rd, Suite 270",
