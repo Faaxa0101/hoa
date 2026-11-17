@@ -29,10 +29,10 @@ const CostArticleContent = () => {
 								Our published starting points are $250/month for basic
 								financials, $500/month for 24/7 availability, and from $25 per
 								unit per month for dedicated management; the final quote
-								depends on units, services and the building's condition. On
-								top of the management fee, expect add-ons for emergency
-								coverage, capital project management and collections beyond
-								routine notices. Anyone who quotes you a single number
+								depends on units, services and the building's condition. Ask
+								which items are extra - emergency coverage, capital project
+								management and collections beyond routine notices are common
+								add-ons in this market. Anyone who quotes you a single number
 								without asking about units, building age and services is
 								guessing.
 							</p>
