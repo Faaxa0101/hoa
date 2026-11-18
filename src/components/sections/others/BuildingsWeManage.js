@@ -10,7 +10,7 @@ const buildings = [
 	{
 		title: "Neenah Manor Condominium",
 		desc: "3158 N Neenah Ave, Chicago, IL 60634",
-		img: "/images/buildings/neenah-manor-v2.webp",
+		img: "/images/buildings/neenah-manor-v3.webp",
 	},
 	{
 		title: "West Barry Condominium Association",
