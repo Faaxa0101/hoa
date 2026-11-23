@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+	<url>
+		<loc>https://www.hoa.help/</loc>
+		<image:image><image:loc>https://www.hoa.help/images/hero/hoa-hero-il-expert.webp</image:loc></image:image>
+		<image:image><image:loc>https://www.hoa.help/images/buildings/northpointe-ohare.webp</image:loc></image:image>
+		<image:image><image:loc>https://www.hoa.help/images/buildings/neenah-manor-v3.webp</image:loc></image:image>
+		<image:image><image:loc>https://www.hoa.help/images/buildings/west-barry-v2.webp</image:loc></image:image>
+		<image:image><image:loc>https://www.hoa.help/images/buildings/cullom.webp</image:loc></image:image>
+		<image:image><image:loc>https://www.hoa.help/images/buildings/wolcott-1044.webp</image:loc></image:image>
+		<image:image><image:loc>https://www.hoa.help/images/buildings/kristina-courtyards.webp</image:loc></image:image>
+		<image:image><image:loc>https://www.hoa.help/images/buildings/east-end-ventures.webp</image:loc></image:image>
+	</url>
+	<url>
+		<loc>https://www.hoa.help/hoa-management-guide-chicago</loc>
+		<image:image><image:loc>https://www.hoa.help/images/guides/hoa-management-chicago-buildings-dusk.webp</image:loc></image:image>
+	</url>
+	<url>
+		<loc>https://www.hoa.help/how-to-switch-hoa-management-chicago</loc>
+		<image:image><image:loc>https://www.hoa.help/images/guides/switch-hoa-management-company-chicago.webp</image:loc></image:image>
+	</url>
+	<url>
+		<loc>https://www.hoa.help/special-assessments-hoa-illinois</loc>
+		<image:image><image:loc>https://www.hoa.help/images/guides/hoa-special-assessment-chicago-brick-damage.webp</image:loc></image:image>
+	</url>
+	<url>
+		<loc>https://www.hoa.help/hoa-reserve-study-illinois</loc>
+		<image:image><image:loc>https://www.hoa.help/images/guides/hoa-reserve-study-rooftop-hvac-chicago.webp</image:loc></image:image>
+		<image:image><image:loc>https://www.hoa.help/images/guides/hoa-reserve-funding-chart.png</image:loc></image:image>
+	</url>
+</urlset>

@@ -8,7 +8,6 @@ export default function sitemap() {
 			lastModified: new Date(),
 			changeFrequency: "weekly",
 			priority: 1,
-			images: [`${base}/images/hero/hoa-hero-il-expert.webp`],
 		},
 		{
 			url: `${base}/condo-management-chicago`,
@@ -75,31 +74,24 @@ export default function sitemap() {
 			lastModified: new Date(),
 			changeFrequency: "monthly",
 			priority: 0.8,
-			images: [`${base}/images/guides/hoa-management-chicago-buildings-dusk.webp`],
 		},
 		{
 			url: `${base}/how-to-switch-hoa-management-chicago`,
 			lastModified: new Date(),
 			changeFrequency: "monthly",
 			priority: 0.8,
-			images: [`${base}/images/guides/switch-hoa-management-company-chicago.webp`],
 		},
 		{
 			url: `${base}/special-assessments-hoa-illinois`,
 			lastModified: new Date(),
 			changeFrequency: "monthly",
 			priority: 0.7,
-			images: [`${base}/images/guides/hoa-special-assessment-chicago-brick-damage.webp`],
 		},
 		{
 			url: `${base}/hoa-reserve-study-illinois`,
 			lastModified: new Date(),
 			changeFrequency: "monthly",
 			priority: 0.7,
-			images: [
-				`${base}/images/guides/hoa-reserve-study-rooftop-hvac-chicago.webp`,
-				`${base}/images/guides/hoa-reserve-funding-chart.png`,
-			],
 		},
 		{
 			url: `${base}/contact`,
