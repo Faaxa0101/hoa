@@ -37,16 +37,7 @@ const Hero = () => {
 							</ScrollLink>
 						</div>
 					</div>
-					<div className="banner-shape" aria-hidden="true">
-						<Image
-							src="/images/shape/pattern-bg-v2.webp"
-							alt=""
-							width={700}
-							height={595}
-							priority
-							sizes="(max-width: 991px) 100vw, 46vw"
-						/>
-					</div>
+					<div className="banner-shape" aria-hidden="true"></div>
 				</div>
 				<div className="banner-right-box">
 					<div className="banner-img">
