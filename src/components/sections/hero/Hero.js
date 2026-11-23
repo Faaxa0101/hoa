@@ -38,14 +38,13 @@ const Hero = () => {
 						</div>
 					</div>
 					<div className="banner-shape" aria-hidden="true">
-						<img
+						<Image
 							src="/images/shape/pattern-bg-v2.webp"
 							alt=""
 							width={700}
 							height={595}
-							loading="eager"
-							fetchPriority="high"
-							decoding="sync"
+							priority
+							sizes="(max-width: 991px) 100vw, 46vw"
 						/>
 					</div>
 				</div>
