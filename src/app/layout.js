@@ -1,4 +1,5 @@
 import Script from "next/script";
+import AnalyticsEvents from "@/components/shared/analytics/AnalyticsEvents";
 import { Mona_Sans } from "next/font/google";
 import "react-range-slider-input/dist/style.css";
 import "./assets/css/animate.min.css";
@@ -167,6 +168,7 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-C6WKSXZYHN');`}
 				</Script>
+				<AnalyticsEvents />
 			</body>
 		</html>
 	);
