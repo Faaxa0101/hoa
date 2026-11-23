@@ -22,6 +22,7 @@ const MobileMenuItem = ({ children, text, url, submenuClass }) => {
 				className={`mean-expand ${isOpen ? "mean-clicked" : ""}`}
 				href="#"
 				style={{ fontSize: "18px" }}
+				aria-label={isOpen ? "Collapse submenu" : "Expand submenu"}
 				onClick={() => handleClick()}
 			>
 				<i className="tji-arrow-down"></i>

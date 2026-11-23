@@ -37,9 +37,7 @@ const Hero = () => {
 							</ScrollLink>
 						</div>
 					</div>
-					<div className="banner-shape">
-						<img src="/images/shape/pattern-bg.webp" alt="" width={560} height={560} aria-hidden="true" />
-					</div>
+					<div className="banner-shape" aria-hidden="true"></div>
 				</div>
 				<div className="banner-right-box">
 					<div className="banner-img">

@@ -44,10 +44,10 @@ const PricingPlan = ({ type = 1 }) => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img src="/images/shape/pattern-2.svg" alt="" />
+				<img src="/images/shape/pattern-2.svg" alt="" width="370" height="590" aria-hidden="true" />
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<img src="/images/shape/pattern-3.svg" alt="" width="370" height="590" aria-hidden="true" />
 			</div>
 		</section>
 	);

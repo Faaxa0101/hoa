@@ -32,7 +32,11 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 								</Link>
 							</div>
 							<div className="hamburger_close">
-								<button className="hamburger_close_btn" onClick={handleClick}>
+								<button
+									className="hamburger_close_btn"
+									aria-label="Close menu"
+									onClick={handleClick}
+								>
 									<i className="fa-thin fa-times"></i>
 								</button>
 							</div>

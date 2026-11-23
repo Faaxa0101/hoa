@@ -670,9 +670,16 @@
 	}
 }
 
+// Hero decorative pattern as CSS background (keeps it out of LCP)
+.banner-shape {
+	background-image: url("/images/shape/pattern-bg.webp");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
 // "Starting from" label on the highlighted (teal) card
 .pricing-box.active .package-price .price-start {
-	color: rgba(255, 255, 255, 0.82);
+	color: #ffffff;
 }
 
 .tj-pricing-section .row.row-gap-4 {

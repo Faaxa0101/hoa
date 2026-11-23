@@ -32,7 +32,11 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 								</Link>
 							</div>
 							<div className="hamburger_close">
-								<button className="hamburger_close_btn" onClick={handleClick}>
+								<button
+									className="hamburger_close_btn"
+									aria-label="Close menu"
+									onClick={handleClick}
+								>
 									<i className="fa-thin fa-times"></i>
 								</button>
 							</div>
@@ -87,12 +91,17 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 									<Link
 										href="https://calendly.com/mike-mkzmanagement/30min"
 										target="_blank"
+										title="Book a free 30-min call"
 									>
 										<i className="tji-calendar"></i>
 									</Link>
 								</li>
 								<li>
-									<Link href="https://app.hoa.help" target="_blank">
+									<Link
+										href="https://app.hoa.help"
+										target="_blank"
+										title="Owner portal"
+									>
 										<i className="tji-home"></i>
 									</Link>
 								</li>
@@ -100,6 +109,7 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 									<Link
 										href="https://g.page/r/CYdU1Z2O3AVaEBM/review"
 										target="_blank"
+										title="Leave a Google review"
 									>
 										<i className="tji-star"></i>
 									</Link>
