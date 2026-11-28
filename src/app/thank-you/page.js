@@ -16,6 +16,21 @@ export const metadata = {
 	},
 };
 
+const steps = [
+	{
+		title: "Check your email",
+		text: "Calendly sends the meeting link and a calendar invite right away. If it is not there in a few minutes, check spam or the promotions tab.",
+	},
+	{
+		title: "Bring what you have",
+		text: "Nothing is required. It helps to have your management agreement, the last three months of financials and the reserve study if the association has one. Rough numbers are fine - the point is to see the shape of the issues.",
+	},
+	{
+		title: "On the call",
+		text: "We review the financials and open issues, outline a step-by-step plan, and answer what a transition or hybrid setup would look like for your building. If a written quote makes sense, you leave the call with one - itemized, with no add-on fees.",
+	},
+];
+
 export default function ThankYou() {
 	return (
 		<div>
@@ -26,72 +41,47 @@ export default function ThankYou() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<section className="tj-about-section section-gap">
+						<section className="tj-about-section section-gap thankyou-page">
 							<div className="container">
 								<div className="row justify-content-center">
-									<div className="col-lg-8 text-center">
-										<div className="sec-heading style-2">
-											<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
+									<div className="col-lg-9 col-xl-8">
+										<div className="thankyou-head">
+											<span className="sub-title">
 												<i className="tji-box"></i> Call booked
 											</span>
-											<h1 className="sec-title title-anim">
-												You&apos;re booked.{" "}
-												<span>Here&apos;s what happens next.</span>
-											</h1>
-											<p className="desc wow fadeInUp" data-wow-delay=".4s">
+											<h1>You&apos;re booked. Here&apos;s what happens next.</h1>
+											<p>
 												Your 30-minute call is confirmed. A real person from our
-												Rosemont team will meet you on the call - no sales
-												script, no call center.
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<div className="row justify-content-center">
-									<div className="col-lg-8">
-										<div className="condo-content-block">
-											<h3>1. Check your email</h3>
-											<p>
-												Calendly sends a confirmation with the meeting link and
-												calendar invite. If it is not there in a few minutes,
-												check spam or promotions.
+												Rosemont team meets you on the call - no sales script,
+												no call center.
 											</p>
 										</div>
 
-										<div className="condo-content-block">
-											<h3>2. Bring what you have</h3>
-											<p>
-												Nothing is required for the call, but these make it more
-												useful: your current management agreement, the last three
-												months of financials, and the reserve study if the
-												association has one. Rough numbers are fine - the point is
-												to see the shape of the issues.
-											</p>
+										<div className="thankyou-steps">
+											{steps.map((step, index) => (
+												<div className="thankyou-step" key={step.title}>
+													<span className="step-num">{index + 1}</span>
+													<div className="step-body">
+														<h2>{step.title}</h2>
+														<p>{step.text}</p>
+													</div>
+												</div>
+											))}
 										</div>
 
-										<div className="condo-content-block">
-											<h3>3. On the call</h3>
-											<p>
-												We review the financials and the open issues, outline a
-												step-by-step plan, and answer what a transition or a hybrid
-												setup would look like for your building. If a written
-												quote makes sense, you leave the call with one - itemized,
-												with no add-on fees.
-											</p>
-										</div>
-
-										<div className="condo-content-block">
-											<h3>Need to change the time?</h3>
+										<div className="thankyou-help">
+											<h2>Need to change the time?</h2>
 											<p>
 												Use the reschedule link in your confirmation email, call
 												or text{" "}
 												<Link href="tel:+18477730026">(847) 773-0026</Link>, or
-												email <Link href="mailto:hello@hoa.help">hello@hoa.help</Link>{" "}
+												email{" "}
+												<Link href="mailto:hello@hoa.help">hello@hoa.help</Link>{" "}
 												- a real person answers 24/7.
 											</p>
 										</div>
 
-										<div className="btn-wrap mt-4">
+										<div className="thankyou-actions">
 											<ButtonPrimary text={"Back to homepage"} url={"/"} />
 											<ButtonPrimary
 												text={"Read the board guide"}
