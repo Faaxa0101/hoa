@@ -100,7 +100,7 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 							<ul>
 								<li>
 									<Link
-										href="https://calendly.com/mike-mkzmanagement/30min"
+										href="/book"
 										target="_blank"
 										title="Book a free 30-min call"
 									>

@@ -73,7 +73,7 @@ const Faq2 = ({ type = 1, items: customItems }) => {
 								<div className="wow fadeInUp" data-wow-delay=".8s">
 									<ButtonPrimary
 										text={"Book a Free 30-min Call"}
-										url={"https://calendly.com/mike-mkzmanagement/30min"}
+										url={"/book"}
 									/>
 								</div>
 							</div>

@@ -12,6 +12,7 @@ import { useEffect } from "react";
  * Mark these as key events in GA4: Admin -> Events -> Mark as key event.
  */
 const ANALYTICS_EVENTS = [
+	{ test: (href) => href === "/book", name: "book_call_click" },
 	{ test: (href) => href.includes("calendly.com"), name: "book_call_click" },
 	{ test: (href) => href.startsWith("tel:"), name: "phone_click" },
 	{ test: (href) => href.startsWith("mailto:"), name: "email_click" },

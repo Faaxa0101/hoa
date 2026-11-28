@@ -153,7 +153,7 @@ const Footer = () => {
 								<div className="footer-cta-actions">
 									<ButtonPrimary
 										text={"Book a Free Call"}
-										url={"https://calendly.com/mike-mkzmanagement/30min"}
+										url={"/book"}
 									/>
 									<Link href="tel:+18477730026" className="footer-cta-phone">
 										<i className="tji-phone-2"></i> (847) 773-0026

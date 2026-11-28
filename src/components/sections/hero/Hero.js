@@ -25,7 +25,7 @@ const Hero = () => {
 						<div className="banner-btn-group wow fadeInUp" data-wow-delay=".8s">
 							<ButtonPrimary
 								text={"Book a Free 30-min Call"}
-								url={"https://calendly.com/mike-mkzmanagement/30min"}
+								url={"/book"}
 							/>
 							<ScrollLink
 								href="#how"

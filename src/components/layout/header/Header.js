@@ -102,7 +102,7 @@ const Header = ({
 										<div className="header-button">
 											<ButtonPrimary
 												text={"Book a Free Call"}
-												url={"https://calendly.com/mike-mkzmanagement/30min"}
+												url={"/book"}
 											/>
 										</div>
 									) : (

@@ -78,7 +78,7 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 									<span className="subtitle">Book</span>
 									<Link
 										className="contact-link"
-										href="https://calendly.com/mike-mkzmanagement/30min"
+										href="/book"
 										target="_blank"
 									>
 										Free 30-min call
@@ -108,7 +108,7 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 								</li>
 								<li>
 									<Link
-										href="https://calendly.com/mike-mkzmanagement/30min"
+										href="/book"
 										target="_blank"
 										title="Book a free 30-min call"
 									>

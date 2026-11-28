@@ -49,7 +49,7 @@ const Contact3 = () => {
 							<div className="contact-direct-btn">
 								<ButtonPrimary
 									text={"Book a Free 30-min Call"}
-									url={"https://calendly.com/mike-mkzmanagement/30min"}
+									url={"/book"}
 								/>
 							</div>
 						</div>

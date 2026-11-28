@@ -16,7 +16,7 @@ const PricingPlanItems = ({ isYearlyPlan }) => {
 						<div className="pricing-btn">
 							<ButtonPrimary
 								text={"Get Free Review"}
-								url={"https://calendly.com/mike-mkzmanagement/30min"}
+								url={"/book"}
 								isTextBtn={true}
 							/>
 						</div>
@@ -57,7 +57,7 @@ const PricingPlanItems = ({ isYearlyPlan }) => {
 						<div className="pricing-btn">
 							<ButtonPrimary
 								text={"Book Now"}
-								url={"https://calendly.com/mike-mkzmanagement/30min"}
+								url={"/book"}
 								isTextBtn={true}
 							/>
 						</div>
@@ -92,7 +92,7 @@ const PricingPlanItems = ({ isYearlyPlan }) => {
 						<div className="pricing-btn">
 							<ButtonPrimary
 								text={"Book Now"}
-								url={"https://calendly.com/mike-mkzmanagement/30min"}
+								url={"/book"}
 								isTextBtn={true}
 							/>
 						</div>
@@ -127,7 +127,7 @@ const PricingPlanItems = ({ isYearlyPlan }) => {
 						<div className="pricing-btn">
 							<ButtonPrimary
 								text={"Book Now"}
-								url={"https://calendly.com/mike-mkzmanagement/30min"}
+								url={"/book"}
 								isTextBtn={true}
 							/>
 						</div>
@@ -161,7 +161,7 @@ const PricingPlanItems = ({ isYearlyPlan }) => {
 						<div className="pricing-btn">
 							<ButtonPrimary
 								text={"Book Now"}
-								url={"https://calendly.com/mike-mkzmanagement/30min"}
+								url={"/book"}
 								isTextBtn={true}
 							/>
 						</div>
